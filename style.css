@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+}
+.card {
+  padding: 20px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+}
+.user-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-img img {
+  text-align: center;
+  width: 70px;
+  border-radius: 50%;
+}
+.user-img h3 {
+  padding: 20px 0 10px 0;
+  color: hsl(0, 0%, 100%);
+}
+.card h6 {
+  color: hsl(75, 94%, 57%);
+}
+.user-img p {
+  padding: 20px 0 15px 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 300;
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.contact-links a {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.contact-links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  font-size: 14px;
+  font-weight: 500;
+}
